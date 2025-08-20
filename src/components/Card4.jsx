@@ -1,0 +1,115 @@
+import React from 'react';
+
+const Card4 = () => {
+    return (
+        
+
+    
+        <div className='p-[60px_140px] flex flex-col items-center justify-center text-center gap-6 mt-4'>
+             <div className=' flex flex-col items-center justify-center text-center gap-6'>
+                <button className="p-[4px_16px] bg-[#332C2A] rounded-[100px] w-[94px] text-[#F16334] h-[24px] text-[14px] flex flex-wrap gap-[6px] items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                        <g clip-path="url(#clip0_5421_1720)">
+                            <path d="M4.6449 15.0455C5.05709 14.6224 5.28606 14.054 5.28223 13.4634C5.2784 12.8727 5.04208 12.3073 4.62444 11.8897C4.2068 11.472 3.64145 11.2356 3.0508 11.2317C2.46016 11.2278 1.89175 11.4568 1.46865 11.8689C0.843646 12.4939 0.597709 13.4626 0.519584 14.3376C0.475196 14.8338 0.478021 15.333 0.528021 15.8286C0.541459 15.9536 0.660834 15.9808 0.681459 15.9848H0.687396C0.737709 15.9867 1.45552 16.0008 1.67677 15.3017C1.71624 15.1711 1.77456 15.047 1.8499 14.9333C1.99458 14.7198 2.32802 14.8483 2.29115 15.1036C2.25526 15.3697 2.31032 15.6402 2.4474 15.8711C2.46257 15.8967 2.48506 15.9171 2.51196 15.9298C2.53886 15.9425 2.56894 15.9469 2.59833 15.9423C3.34865 15.8292 4.11833 15.572 4.6449 15.0455ZM11.9227 12.4964V10.5605C12.1548 10.3611 12.3818 10.1509 12.6036 9.92984L13.2186 9.31577C15.5199 7.01328 16.6433 4.06265 16.4855 1.41202C16.439 0.632337 15.8818 0.0748368 15.1018 0.0282743C12.4527 -0.129538 9.4999 0.993899 7.19802 3.29609L6.58396 3.91015C6.36271 4.1314 6.1525 4.35848 5.95333 4.5914H4.0174C3.60646 4.60702 3.24302 4.84421 3.0374 5.19202L1.89927 7.4689C1.8693 7.55065 1.84835 7.63542 1.83677 7.72171C1.83855 7.86794 1.89744 8.00767 2.00084 8.11108C2.10425 8.21449 2.24398 8.27337 2.39021 8.27515H3.82771C3.64021 8.90327 3.76521 9.52077 4.16458 9.91953L6.59365 12.3489C6.9924 12.748 7.6099 12.8723 8.23802 12.6858V14.1233C8.2398 14.2695 8.29869 14.4092 8.40209 14.5126C8.5055 14.616 8.64523 14.6749 8.79146 14.6767C8.87775 14.6651 8.96252 14.6442 9.04427 14.6142L11.3205 13.4761C11.6696 13.2711 11.9061 12.9064 11.9227 12.4964ZM10.5874 5.9264C10.2664 5.60535 10.0477 5.19631 9.95916 4.751C9.87059 4.3057 9.91605 3.84413 10.0898 3.42466C10.2636 3.00519 10.5578 2.64667 10.9353 2.39443C11.3128 2.14219 11.7566 2.00755 12.2107 2.00755C12.6647 2.00755 13.1085 2.14219 13.486 2.39443C13.8636 2.64667 14.1578 3.00519 14.3316 3.42466C14.5053 3.84413 14.5508 4.3057 14.4622 4.751C14.3736 5.19631 14.155 5.60535 13.834 5.9264C13.6208 6.13958 13.3677 6.30868 13.0892 6.42405C12.8107 6.53942 12.5121 6.5988 12.2107 6.5988C11.9092 6.5988 11.6107 6.53942 11.3322 6.42405C11.0536 6.30868 10.8006 6.13958 10.5874 5.9264Z" fill="#F16334" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_5421_1720">
+                                <rect width="16" height="16" fill="white" transform="translate(0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    Offers
+                </button>
+
+            </div>
+            <div className='item-center '>
+               <p className="text-[48px] text-white">
+                    <span className=' text-[#F16334]'>Guides & </span> Resources</p>
+                <p className=' text-white'>Boost smarter. Learn faster. Dominate better.</p>
+
+            </div>
+
+
+            <div className=' flex gap-[24px]'>
+                <div className="relative  w-[424px] h-[524px] rounded-xl overflow-hidden">
+                    {/* Image */}
+                    <img
+                        src="../../public/p2.png"
+                        alt="Sample"
+                        className="w-full h-[524px] object-cover"
+                    />
+
+                    {/* Bottom overlay with text and button */}
+                    <div className="absolute bottom-0 left-0  h-[198px] bg-[rgba(48,51,57,0.6)] p-[16px]  gap-[12px] flex flex-col  rounded-[16px]">
+                        <button className="text-white p-[6px_12px] w-fit rounded-full border-[0.5px] border-[rgba(248,250,251,1)] bg-[rgba(48,51,57,0.1)]">
+                           Rank Boosting
+                        </button>
+                        <h2 className="text-white text-[24px] ">
+                            The Fastest Way to Reach Diamond in Valorant (2025 Guide)
+                        </h2>
+                        <p className="text-white ">
+                            Discover the most efficient boosting and what ranks you can realistically with consistent play or pro help.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div className="relative  w-[424px] h-[524px] rounded-xl overflow-hidden">
+                    {/* Image */}
+                    <img
+                        src="../../public/p3.png"
+                        alt="Sample"
+                        className="w-full h-[524px] object-cover"
+                    />
+
+                    {/* Bottom overlay with text and button */}
+                    <div className="absolute bottom-0 left-0  h-[198px] bg-[rgba(48,51,57,0.6)] p-[16px] gap-[12px] flex flex-col  rounded-[16px]">
+                        <button className="text-white p-[6px_12px] w-fit rounded-full border-[0.5px] border-[rgba(248,250,251,1)] bg-[rgba(48,51,57,0.1)]">
+                            Account Safety
+                        </button>
+                        <h2 className="text-white text-xl font-bold ">
+                            Is Game Boosting Safe? What You Need to Know
+                        </h2>
+                        <p className="text-white ">
+                            We break down account safety, VPN usage, and how our platform, your data and rank stay protected.
+                        </p>
+                       
+
+
+                    </div>
+                </div>
+                <div className="relative  w-[424px] h-[524px] rounded-xl overflow-hidden">
+                    {/* Image */}
+                    <img
+                        src="../../public/p4.png"
+                        alt="Sample"
+                        className="w-full h-[524px] object-cover"
+                    />
+
+                    {/* Bottom overlay with text and button */}
+                    <div className="absolute bottom-0 left-0  h-[198px] bg-[rgba(48,51,57,0.6)] p-[16px] gap-[12px] flex flex-col  rounded-[16px]">
+                        <button className="text-white p-[6px_12px] w-fit rounded-full border-[0.5px] border-[rgba(248,250,251,1)] bg-[rgba(48,51,57,0.1)]">
+                           Game Tips
+                        </button>
+                        <h2 className="text-white text-xl font-bold ">
+                            Is Game Boosting Safe? What You Need to Know
+                        </h2>
+                        <p className="text-white ">
+                            We break down account safety, VPN usage, and how our platform, your data and rank stay protected.
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+{/*  */}
+
+        </div>
+    );
+};
+
+export default Card4;
