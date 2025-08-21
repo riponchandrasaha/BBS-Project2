@@ -45,6 +45,7 @@ function Card() {
                         className="w-[312px] h-[400px]"
                     />
                 </div>
+
             </div>
 
             {/* Navigation buttons */}

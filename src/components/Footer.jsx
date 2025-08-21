@@ -54,6 +54,7 @@ const Footer = () => {
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
+                
             </footer>
             <br />
             <hr class="border-t border-[rgba(255, 255, 255, 0.50)] opacity-50" />
@@ -65,7 +66,7 @@ const Footer = () => {
                     <p>Contact:</p>
                     <p>+61 2 1234 5678</p>
                     <p>info@example.com</p>
-                   
+
                 </div>
             </div>
 
